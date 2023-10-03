@@ -329,7 +329,7 @@ const App = () => {
         <ItemList
           label={name}
           value={boundAddress}
-          onPress={() => unPair(boundAddress)}
+          onPress={() => {console.log("disconnect false")}}
           actionText="Disconnect"
           color="#E9493F"
         />

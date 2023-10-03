@@ -22,7 +22,7 @@ async function printreciept() {
 
   try {
     await BluetoothEscposPrinter.printerAlign(BluetoothEscposPrinter.ALIGN.CENTER);
-    await BluetoothEscposPrinter.printText(' ABC India PLC', { align: 'center' });
+    await BluetoothEscposPrinter.printText('ABC India PLC', { align: 'center' });
     await BluetoothEscposPrinter.printText('\r\n', {});
 
 
